@@ -52,14 +52,14 @@ function NavBar() {
       <div className="navbar-end">
         <a className="btn btn-ghost lg:hidden normal-case text-xl">ennea</a>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal font-semibold px-1 text-base">
+          <ul className="menu menu-horizontal font-medium text-xl px-1">
             <li>
               <a>Our Services</a>
             </li>
             <li tabIndex={0}>
               <details>
                 <summary>ValueMedi</summary>
-                <ul className="p-2 font-normal">
+                <ul className="p-2 text-base font-normal">
                   <li>
                     <a>ValueMedi</a>
                   </li>

@@ -6,4 +6,11 @@
   .btn-primary {
     @apply btn px-8 my-4 bg-[#84bf40] hover:bg-[#73b02e] text-base rounded-full text-white;
   }
+
+  .heading-primary {
+    @apply text-[#84bf40] text-3xl font-bold mt-5 mb-2;
+  }
+  .section-heading {
+    @apply text-[#0cb3f2] text-3xl text-center font-bold mt-8 mb-10;
+  }
 }
