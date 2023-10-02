@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply btn px-8 my-4 bg-[#84bf40] hover:bg-[#73b02e] text-base rounded-full text-white;
+  }
+}
