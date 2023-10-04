@@ -5,9 +5,9 @@ import Card from "./Card";
 
 const CoreValuesSection = () => {
   return (
-    <>
+    <div className="container max-w-[1240px] my-8 md:my-12">
       <h2 className="section-heading">Our Core Values</h2>
-      <div className="grid lg:grid-cols-3 place-items-center gap:5 lg:gap-10 mb-80">
+      <div className="grid lg:grid-cols-3 place-items-center gap:5 lg:gap-10">
         <Card
           imageSrc={experience}
           cardTitle="Experience"
@@ -27,7 +27,7 @@ const CoreValuesSection = () => {
           altText="growth logo"
         />
       </div>
-    </>
+    </div>
   );
 };
 

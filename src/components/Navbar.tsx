@@ -52,7 +52,7 @@ function NavBar() {
       <div className="navbar-end">
         <a className="btn btn-ghost lg:hidden normal-case text-xl">ennea</a>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal font-medium text-xl px-1">
+          <ul className="menu menu-horizontal font-medium text-base px-1">
             <li>
               <a>Our Services</a>
             </li>

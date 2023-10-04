@@ -1,4 +1,3 @@
-import "./App.css";
 import BookDemoCard from "./components/BookDemoCard";
 import CoreValuesSection from "./components/CoreValuesSection";
 import Footer from "./components/Footer";
@@ -14,9 +13,11 @@ function App() {
       <NavBar />
       <Home />
       <MissionSection />
-      <CoreValuesSection />
-      <ServicesSection />
-      <TestimonialsSection />
+      <div className="bg-gradient-to-b from-transparent to-[#c4f0fe] flex flex-col items-center justify-center">
+        <CoreValuesSection />
+        <ServicesSection />
+        <TestimonialsSection />
+      </div>
       <BookDemoCard />
       <Footer />
     </>

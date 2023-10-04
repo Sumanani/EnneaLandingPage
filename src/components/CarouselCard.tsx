@@ -18,7 +18,7 @@ const CarouselCard = () => {
           all our issues, the service is very much proficient and prompt.
         </p>
         <div className="card-actions">
-          <button className="btn btn-primary">Buy Now</button>
+          <button className="btn btn-custom">Buy Now</button>
         </div>
       </div>
     </div>
