@@ -2,7 +2,6 @@ import analytics from "../assets/images/analytics.svg";
 import payment from "../assets/images/payment.svg";
 import order from "../assets/images/order.svg";
 import tracking from "../assets/images/tracking.svg";
-import supplychain from "../assets/images/supplychain.png";
 import logistic from "../assets/images/logistic.svg";
 
 import Card from "./Card";
