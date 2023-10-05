@@ -1,24 +1,34 @@
 import logo from "../assets/images/logo.png";
 
-const CarouselCard = () => {
+interface Props {
+  company: string;
+  reviewer: string;
+  reviewText: string;
+  reviewDescription: string;
+}
+
+const CarouselCard = ({
+  company,
+  reviewer,
+  reviewText,
+  reviewDescription,
+}: Props) => {
   return (
-    <div className="card bg-base-100 shadow-xl lg:mx-36">
-      <div className="card-body">
+    <div className="card bg-base-100 shadow-xl mx-0 ml-3 lg:mx-36">
+      <div className="card-body md:px-16 py-10">
         <div className="flex justify-start items-center">
           <img className="w-[50px]" src={logo} alt="logo" />
-          <div>
-            <h2 className="card-title">A TO Z Medicals</h2>
-            <p>Mr. Anzi Reddy, Khammam</p>
+          <div className="px-3">
+            <h2 className="card-title text-lg sm:text-xl">{company}</h2>
+            <p>{reviewer}</p>
           </div>
         </div>
-        <p>Regular ordering feature is saving lots of time.</p>
-        <p>
-          Customer support staff are really very good. They hear my concerns
-          carefully and with patients. They help us very politely and resolve
-          all our issues, the service is very much proficient and prompt.
-        </p>
+        <p className="font-semibold mt-3 sm:text-lg">{reviewText}</p>
+        <p className="text-base sm:text-lg">{reviewDescription}</p>
         <div className="card-actions">
-          <button className="btn btn-custom">Buy Now</button>
+          <a href="#" className="btn btn-youtube">
+            Watch on Youtube
+          </a>
         </div>
       </div>
     </div>

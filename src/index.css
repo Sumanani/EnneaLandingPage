@@ -7,6 +7,10 @@
     @apply btn px-8 my-4 bg-[#84bf40] hover:bg-[#73b02e] text-base rounded-full text-white;
   }
 
+  .btn-youtube {
+    @apply btn mt-4 bg-[#CD201F] hover:bg-[#ff3e3e] text-xs sm:text-sm text-white;
+  }
+
   .heading-primary {
     @apply text-[#84bf40] text-3xl font-bold mt-8 md:mt-5 mb-2;
   }

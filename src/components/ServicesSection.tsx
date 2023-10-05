@@ -11,7 +11,7 @@ const ServicesSection = () => {
   return (
     <div className="container max-w-[1240px] my-8 md:my-12">
       <h2 className="section-heading">Our Services</h2>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 place-items-center gap:5 lg:gap-10 mb-80">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 place-items-center gap:5 lg:gap-10">
         <Card
           imageSrc={analytics}
           altText="analytics logo"
