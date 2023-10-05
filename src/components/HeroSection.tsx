@@ -11,7 +11,7 @@ const HeroSection = () => {
           </p>
           <button className="btn-custom">Get Started</button>
         </div>
-        <img className="w-full mt-6 lg:mt-0" src={hero} alt="hero image" />
+        <img className="w-full mt-10 lg:mt-0" src={hero} alt="hero image" />
       </div>
     </div>
   );
