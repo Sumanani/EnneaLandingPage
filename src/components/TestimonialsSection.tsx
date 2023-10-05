@@ -2,7 +2,7 @@ import CarouselCard from "./CarouselCard";
 
 const TestimonialsSection = () => {
   return (
-    <div className="container md:p-0 my-8 md:my-12">
+    <div className="container md:p-0 my-8 md:mt-12 md:mb-20">
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
           <CarouselCard

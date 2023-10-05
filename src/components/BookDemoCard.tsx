@@ -1,6 +1,6 @@
 const BookDemoCard = () => {
   return (
-    <div className="flex justify-center items-center my-32">
+    <div className="flex justify-center items-center my-12">
       <div className="container max-w-[1120px]">
         <div className="card bg-gradient-to-tl from-transparent to-[#c4f0fe] bg-base-100 md:py-12 shadow-xl">
           <div className="card-body">

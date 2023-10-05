@@ -1,20 +1,27 @@
-import hero from "../assets/images/hero.svg";
+import BookDemoCard from "./BookDemoCard";
+import CoreValuesSection from "./CoreValuesSection";
+import Footer from "./Footer";
+import HeroSection from "./HeroSection";
+import MissionSection from "./MissionSection";
+import NavBar from "./Navbar";
+import ServicesSection from "./ServicesSection";
+import TestimonialsSection from "./TestimonialsSection";
 
-const Home = () => {
+function Home() {
   return (
-    <div className="bg-gradient-to-b from-[#c4f0fe] flex justify-center">
-      <div className="container my-12 lg:my-36 max-w-[1240px] grid grid-cols-1 md:grid-cols-2 place-items-center lg:gap-10">
-        <div className="flex-column text-center md:text-left justify-center items-center">
-          <h1 className="text-6xl lg:text-8xl font-bold">Ennea Solutions</h1>
-          <p className="text-xl md:text-2xl mt-4 font-medium text-slate-600">
-            Rearchitecting the supply chain
-          </p>
-          <button className="btn-custom">Get Started</button>
-        </div>
-        <img className="w-full mt-6 lg:mt-0" src={hero} alt="hero image" />
+    <>
+      <NavBar />
+      <HeroSection />
+      <MissionSection />
+      <div className="bg-gradient-to-b from-transparent to-[#c4f0fe] flex flex-col items-center justify-center">
+        <CoreValuesSection />
+        <ServicesSection />
+        <TestimonialsSection />
       </div>
-    </div>
+      <BookDemoCard />
+      <Footer />
+    </>
   );
-};
+}
 
 export default Home;
