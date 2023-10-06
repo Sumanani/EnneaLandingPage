@@ -2,8 +2,8 @@ import hero from "../assets/images/hero.svg";
 
 const HeroSection = () => {
   return (
-    <div className="bg-gradient-to-b min-h-screen md:min-h-0 from-[#c4f0fe] flex justify-center">
-      <div className="container my-12 lg:my-36 max-w-[1240px] grid grid-cols-1 md:grid-cols-2 place-items-center lg:gap-10">
+    <div className="bg-gradient-to-b from-[#c4f0fe] flex justify-center">
+      <div className="container my-16 lg:my-36 max-w-[1240px] grid grid-cols-1 md:grid-cols-2 place-items-center lg:gap-10">
         <div className="flex-column text-center md:text-left justify-center items-center">
           <h1 className="text-6xl lg:text-8xl font-bold">Ennea Solutions</h1>
           <p className="text-xl md:text-2xl mt-4 font-medium text-slate-600">
