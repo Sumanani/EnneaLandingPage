@@ -1,10 +1,19 @@
-const BookDemoCard = () => {
+interface Props {
+  heading?: string;
+  bgGreen?: boolean;
+}
+
+const BookDemoCard = ({ heading = "Join Us", bgGreen }: Props) => {
+  const bgClassName = bgGreen
+    ? "card bg-gradient-to-br from-[#e3f0d3] bg-base-100 md:py-12 shadow-xl"
+    : "card bg-gradient-to-br from-[#c4f0fe] bg-base-100 md:py-12 shadow-xl";
+
   return (
     <div className="flex justify-center items-center my-12">
       <div className="container max-w-[1120px]">
-        <div className="card bg-gradient-to-tl from-transparent to-[#c4f0fe] bg-base-100 md:py-12 shadow-xl">
+        <div className={bgClassName}>
           <div className="card-body">
-            <p className="text-center text-2xl font-medium">Join Us</p>
+            <p className="text-center text-2xl font-medium">{heading}</p>
             <p className="text-center text-lg md:text-xl">
               Book your demo and experience the best!
             </p>

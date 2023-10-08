@@ -1,11 +1,11 @@
-import BookDemoCard from "./BookDemoCard";
-import CoreValuesSection from "./CoreValuesSection";
-import Footer from "./Footer";
-import HeroSection from "./HeroSection";
-import MissionSection from "./MissionSection";
-import NavBar from "./Navbar";
-import ServicesSection from "./ServicesSection";
-import TestimonialsSection from "./TestimonialsSection";
+import BookDemoCard from "../BookDemoCard";
+import CoreValuesSection from "../CoreValuesSection";
+import Footer from "../Footer";
+import HeroSection from "../HeroSection";
+import MissionSection from "../MissionSection";
+import NavBar from "../Navbar";
+import ServicesSection from "../ServicesSection";
+import TestimonialsSection from "../TestimonialsSection";
 
 function Home() {
   return (

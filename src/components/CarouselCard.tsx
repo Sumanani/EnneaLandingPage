@@ -19,7 +19,7 @@ const CarouselCard = ({
         <div className="flex justify-start items-center">
           <img className="w-[50px]" src={logo} alt="logo" />
           <div className="px-3">
-            <h2 className="card-title text-lg sm:text-xl">{company}</h2>
+            <h3 className="card-title text-lg sm:text-xl">{company}</h3>
             <p>{reviewer}</p>
           </div>
         </div>

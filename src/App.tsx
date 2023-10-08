@@ -1,5 +1,4 @@
-import Home from "./components/Home";
-import ValueMedi from "./components/ValueMedi";
+import ValueMedi from "./components/pages/ValueMedi";
 
 const App = () => {
   return <ValueMedi />;

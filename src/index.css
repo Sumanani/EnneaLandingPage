@@ -26,4 +26,8 @@
   .section-heading {
     @apply text-[#0cb3f2] text-3xl text-center font-bold my-8 md:my-4;
   }
+
+  .section-sub-heading {
+    @apply text-xl lg:text-2xl card-title text-[#0cb3f2];
+  }
 }

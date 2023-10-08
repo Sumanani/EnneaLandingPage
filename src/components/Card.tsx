@@ -22,9 +22,7 @@ const Card = ({ imageSrc, altText, cardTitle, cardDescription }: Props) => {
         />
       </figure>
       <div className={cardBodyClassName}>
-        <h2 className="text-xl lg:text-2xl card-title text-[#0cb3f2]">
-          {cardTitle}
-        </h2>
+        <h3 className="section-sub-heading">{cardTitle}</h3>
         {cardDescription && <p className="text-lg">{cardDescription}</p>}
       </div>
     </div>
