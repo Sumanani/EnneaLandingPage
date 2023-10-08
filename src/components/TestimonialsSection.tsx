@@ -3,7 +3,8 @@ import CarouselCard from "./CarouselCard";
 const TestimonialsSection = () => {
   return (
     <div className="container md:p-0 my-8 md:mt-12 md:mb-20">
-      <div className="carousel w-full">
+      <h2 className="section-heading">Testimonials</h2>
+      <div className="carousel w-full mt-4">
         <div id="slide1" className="carousel-item relative w-full">
           <CarouselCard
             company="Pragati Pharma"

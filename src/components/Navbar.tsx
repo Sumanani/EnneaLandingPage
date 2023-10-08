@@ -1,6 +1,14 @@
-function NavBar() {
+interface Props {
+  backgroundColor?: string;
+}
+
+function NavBar({ backgroundColor = "#c4f0fe" }: Props) {
+  const navBarClassName =
+    backgroundColor === "#c4f0fe"
+      ? "navbar bg-[#c4f0fe]"
+      : "navbar bg-[#e3f0d3]";
   return (
-    <div className="navbar bg-[#c4f0fe]">
+    <div className={navBarClassName}>
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">

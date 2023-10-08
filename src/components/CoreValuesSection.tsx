@@ -1,6 +1,6 @@
-import experience from "../assets/images/experience.svg";
-import guarantee from "../assets/images/guaranteed.svg";
-import growth from "../assets/images/growth.svg";
+import experience from "../assets/images/home/experience.svg";
+import guarantee from "../assets/images/home/guaranteed.svg";
+import growth from "../assets/images/home/growth.svg";
 import Card from "./Card";
 
 const CoreValuesSection = () => {

@@ -1,8 +1,8 @@
-import analytics from "../assets/images/analytics.svg";
-import payment from "../assets/images/payment.svg";
-import order from "../assets/images/order.svg";
-import tracking from "../assets/images/tracking.svg";
-import logistic from "../assets/images/logistic.svg";
+import analytics from "../assets/images/home/analytics.svg";
+import payment from "../assets/images/home/payment.svg";
+import order from "../assets/images/home/order.svg";
+import tracking from "../assets/images/home/tracking.svg";
+import logistic from "../assets/images/home/logistic.svg";
 
 import Card from "./Card";
 

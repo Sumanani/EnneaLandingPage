@@ -1,4 +1,4 @@
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/home/logo.png";
 
 interface Props {
   company: string;
