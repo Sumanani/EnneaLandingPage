@@ -23,6 +23,14 @@
     @apply text-[#0cb3f2] text-3xl font-semibold mt-8 md:mt-5 mb-3;
   }
 
+  .badge-custom {
+    @apply badge badge-neutral text-base mr-3 my-1 px-3 py-4;
+  }
+
+  .heading-career {
+    @apply text-[#0cb3f2] font-semibold mt-8 md:mt-5 text-2xl mb-1;
+  }
+
   .section-heading {
     @apply text-[#0cb3f2] text-3xl text-center font-bold my-8 md:my-4;
   }

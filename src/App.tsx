@@ -1,8 +1,15 @@
-import Home from "./pages/Home";
-import ValueMedi from "./pages/ValueMedi";
+import NavBar from "./components/Navbar";
+import OpeningSection from "./components/OpeningSection";
+import Career from "./pages/Career";
 
 const App = () => {
-  return <ValueMedi />;
+  return (
+    <>
+      <NavBar />
+      <Career />
+      <OpeningSection />
+    </>
+  );
 };
 
 export default App;
