@@ -1,10 +1,10 @@
-import BookDemoCard from "../BookDemoCard";
-import Footer from "../Footer";
-import HeroSection from "../HeroSection";
-import NavBar from "../Navbar";
-import ValueMediDescription from "../ValueMediDescription";
-import ValueMediServicesContainer from "../ValueMediServicesContainer";
-import mobile from "../../assets/images/valuemedi/mobile-screen.png";
+import mobile from "../assets/images/valuemedi/mobile-screen.png";
+import BookDemoCard from "../components/BookDemoCard";
+import Footer from "../components/Footer";
+import HeroSection from "../components/HeroSection";
+import NavBar from "../components/Navbar";
+import ValueMediDescription from "../components/ValueMediDescription";
+import ValueMediServicesContainer from "../components/ValueMediServicesContainer";
 
 const ValueMedi = () => {
   return (

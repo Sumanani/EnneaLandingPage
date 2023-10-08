@@ -14,7 +14,7 @@ const CarouselCard = ({
   reviewDescription,
 }: Props) => {
   return (
-    <div className="card bg-base-100 shadow-xl mx-0 ml-3 lg:mx-36">
+    <div className="card w-full bg-base-100 shadow-xl mx-0 ml-3 lg:mx-36">
       <div className="card-body md:px-16 py-10">
         <div className="flex justify-start items-center">
           <img className="w-[50px]" src={logo} alt="logo" />

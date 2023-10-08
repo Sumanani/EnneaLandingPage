@@ -20,7 +20,7 @@ const ValueMediServices = ({
   return (
     <div className="container max-w-[1240px] my-8 md:my-12">
       <div className={contClassName}>
-        <div className={isReverse ? "md:ml-12" : "md:mr-12"}>
+        <div className={isReverse ? "md:ml-12 lg:ml-16" : "md:mr-12 lg:mr-16"}>
           <h3 className="section-sub-heading mb-4">{heading}</h3>
           <p className="text-lg mb-4">{description}</p>
         </div>
