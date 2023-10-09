@@ -8,7 +8,7 @@ interface Props {
 
 const CareerCard = ({ title, description, experience }: Props) => {
   return (
-    <div className="card w-[350px] bg-base-100 shadow-xl">
+    <div className="card max-w-[350px] bg-base-100 shadow-xl">
       <div className="card-body">
         <img className="w-[50px] mb-4" src={logo} alt="ennea logo" />
         <h2 className="card-title">{title}</h2>

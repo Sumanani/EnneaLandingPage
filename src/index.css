@@ -31,6 +31,10 @@
     @apply text-[#0cb3f2] font-semibold mt-8 md:mt-5 text-2xl mb-1;
   }
 
+  .career-card-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-auto justify-items-center gap-6 lg:gap-10;
+  }
+
   .section-heading {
     @apply text-[#0cb3f2] text-3xl text-center font-bold my-8 md:my-4;
   }

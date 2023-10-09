@@ -14,11 +14,7 @@ const Card = ({ imageSrc, altText, cardTitle, cardDescription }: Props) => {
         <img
           src={imageSrc}
           alt={altText}
-          className={
-            cardDescription
-              ? "rounded-xl"
-              : "rounded-xl w-[280px] h-[180px] object-cover"
-          }
+          className={cardDescription ? "rounded-xl" : "rounded-xl object-cover"}
         />
       </figure>
       <div className={cardBodyClassName}>
