@@ -34,15 +34,7 @@ function NavBar() {
               <Link to="/">Our Services</Link>
             </li>
             <li>
-              <a>ValueMedi</a>
-              <ul className="p-2">
-                <li>
-                  <a>ValueMedi</a>
-                </li>
-                <li>
-                  <a>Calculator</a>
-                </li>
-              </ul>
+              <Link to="/valuemedi">ValueMedi</Link>
             </li>
             <li>
               <Link to="/career">Career</Link>
@@ -66,18 +58,8 @@ function NavBar() {
             <li>
               <Link to="/">Our Services</Link>
             </li>
-            <li tabIndex={0}>
-              <details>
-                <summary>ValueMedi</summary>
-                <ul className="p-2 text-base font-normal">
-                  <li>
-                    <Link to="/valuemedi">ValueMedi</Link>
-                  </li>
-                  <li>
-                    <a>Calculator</a>
-                  </li>
-                </ul>
-              </details>
+            <li>
+              <Link to="/valuemedi">ValueMedi</Link>
             </li>
             <li>
               <Link to="/career">Career</Link>

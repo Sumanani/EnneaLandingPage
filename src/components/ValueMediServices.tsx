@@ -1,5 +1,3 @@
-import analytics from "../assets/images/valuemedi/vm-analytics.png";
-
 interface Props {
   heading: string;
   description: string;
@@ -24,6 +22,7 @@ const ValueMediServices = ({
           <h3 className="section-sub-heading mb-4">{heading}</h3>
           <p className="text-lg mb-4">{description}</p>
         </div>
+
         <div className="card bg-base-100 flex-shrink-0 p-4 shadow-xl">
           <figure>
             <img
