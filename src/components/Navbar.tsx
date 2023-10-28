@@ -1,12 +1,11 @@
-interface Props {
-  backgroundColor?: string;
-}
+import { Link, useLocation } from "react-router-dom";
 
-function NavBar({ backgroundColor = "#c4f0fe" }: Props) {
+function NavBar() {
+  const { pathname } = useLocation();
+
   const navBarClassName =
-    backgroundColor === "#c4f0fe"
-      ? "navbar bg-[#c4f0fe]"
-      : "navbar bg-[#e3f0d3]";
+    pathname === "/valuemedi" ? "navbar bg-[#e3f0d3]" : "navbar bg-[#c4f0fe]";
+
   return (
     <div className={navBarClassName}>
       <div className="navbar-start">
@@ -32,7 +31,7 @@ function NavBar({ backgroundColor = "#c4f0fe" }: Props) {
             className="menu menu-md dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Our Services</a>
+              <Link to="/">Our Services</Link>
             </li>
             <li>
               <a>ValueMedi</a>
@@ -46,30 +45,33 @@ function NavBar({ backgroundColor = "#c4f0fe" }: Props) {
               </ul>
             </li>
             <li>
-              <a>Career</a>
+              <Link to="/career">Career</Link>
             </li>
             <li>
-              <a>Contact Us</a>
+              <Link to="/contact-us">Contact Us</Link>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost hidden lg:flex normal-case text-2xl">
+        <Link
+          to="/"
+          className="btn btn-ghost hidden lg:flex normal-case text-2xl"
+        >
           ennea
-        </a>
+        </Link>
       </div>
       <div className="navbar-end">
         <a className="btn btn-ghost lg:hidden normal-case text-xl">ennea</a>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal font-medium text-base px-1">
             <li>
-              <a>Our Services</a>
+              <Link to="/">Our Services</Link>
             </li>
             <li tabIndex={0}>
               <details>
                 <summary>ValueMedi</summary>
                 <ul className="p-2 text-base font-normal">
                   <li>
-                    <a>ValueMedi</a>
+                    <Link to="/valuemedi">ValueMedi</Link>
                   </li>
                   <li>
                     <a>Calculator</a>
@@ -78,10 +80,10 @@ function NavBar({ backgroundColor = "#c4f0fe" }: Props) {
               </details>
             </li>
             <li>
-              <a>Career</a>
+              <Link to="/career">Career</Link>
             </li>
             <li>
-              <a>Contact Us</a>
+              <Link to="/contact-us">Contact Us</Link>
             </li>
           </ul>
         </div>
