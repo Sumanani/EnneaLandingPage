@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  color-scheme: only light;
+}
+
 @layer components {
   .btn-custom {
     @apply btn px-8 my-4 bg-[#84bf40] hover:bg-[#73b02e] text-base rounded-full text-white;
